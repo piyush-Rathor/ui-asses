@@ -10,7 +10,7 @@ import axios from "axios";
 const callApi = async (url, data = null, method = "GET") => {
   try {
     const response = await axios({
-      url: `http://localhost:3000/${url}`,
+      url: `https://back-asses.herokuapp.com/${url}`,
       data,
       method,
       headers: {
